@@ -1,5 +1,5 @@
-require_relative 'euler5'
 require 'test/unit'
+require_relative '../euler5'
 
 class PrimeFactorizationTest < Test::Unit::TestCase
   def test_two_is_prime
