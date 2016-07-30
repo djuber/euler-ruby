@@ -18,10 +18,4 @@ class FactorTest < Test::Unit::TestCase
     #  13195 are 5, 7, 13 and 29.
     self.assert_equal([5,7,13,29], prime_factors(13195))
   end
-  def test_print_solution_to_problem_three
-    self.assert_true(true)
-    a =prime_factors(600851475143)
-    p a
-    puts "solution to problem three is #{a.last}"
-  end
 end
