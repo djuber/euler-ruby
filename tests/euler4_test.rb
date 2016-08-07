@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../euler4'
+require_relative '../palindrome'
 
 class PalindromeTest < Test::Unit::TestCase
   def test_single_digit_number_is_palindrome
